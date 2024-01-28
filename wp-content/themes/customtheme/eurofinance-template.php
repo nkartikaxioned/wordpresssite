@@ -2,6 +2,7 @@
 /*
 Template Name: EuroFinance Template
 */
+get_header();
 ?>
 <?php
 
@@ -203,3 +204,5 @@ if (have_rows('flexible_container')) {
 } else {
   echo "no value";
 }
+get_footer();
+?>
