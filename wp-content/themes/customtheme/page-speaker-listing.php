@@ -32,7 +32,7 @@ $args = array(
 </div>
   <div id="load-more-container">
     <button id="load-more-button">Load More</button>
-    <button id="show-less-button" style="display: none;">Show Less</button>
+    <button id="show-less-button" style.visibility="hidden" >Show Less</button>
   </div>
 </section>
 <?php get_footer(); ?>
